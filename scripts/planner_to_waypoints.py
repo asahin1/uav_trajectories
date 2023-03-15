@@ -36,7 +36,7 @@ if __name__ == "__main__":
 
   for file in init_files:
     data = np.loadtxt(file, delimiter=',', skiprows=0)
-    data = data * 0.05;
+    data = data * 0.0254; ## inches to meter
     data[:,0] -= args.x_off
     data[:,1] -= args.y_off
     data[:,2] -= args.z_off
