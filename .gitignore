@@ -1,5 +1,5 @@
 build/
 __pycache__/
-# LCP_data/
-# my_trajectories/
-# my_waypoints/
+LCP_data/
+my_trajectories/
+my_waypoints/
